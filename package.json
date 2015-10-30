@@ -1,6 +1,6 @@
 {
-  "name": "single page express and angular",
-  "main": "server.js",
+  "name": "SPA",
+  "main": "node server.js",
   "dependencies": {
     "express" : "~4.5.1",
 	"body-parser" : "~1.4.2",
