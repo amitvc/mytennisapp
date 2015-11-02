@@ -2,12 +2,18 @@
 var express = require('express');
 var profileRoutes = express.Router();
 
+/**
+ * Service end point that adds customers.
+ */
 profileRoutes.post("/add", function (req, res) {
    console.log(req);
 
    res.send("Nothing to do");
 });
 
+/**
+ *  Service end point that gets all profiles.
+ */
 profileRoutes.get("/all", function (req, res) {
     var profile = function(name, promotion) {
         this.name = name;

@@ -2,7 +2,7 @@
     var dataService = function($http) {
         this.getData = function() {
             console.log("Calling /profile/all");
-            return $http.get("/profile/all");
+            return $http.get("/profileService/all");
         }   
         this.getCustomerData = function() {
             return $http.get("/customers/"+id);
