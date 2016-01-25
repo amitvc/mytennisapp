@@ -1,10 +1,12 @@
 {
-	"name": "angular",
-	"version": "1.0.0",
-	"dependencies": {
-		"bootstrap": "latest",
-		"angular": "latest",
-		"angular-route": "latest",
-        "angular-ui-grid": "latest"
-	}
+  "name": "angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-grid": "latest",
+    "angular-bootstrap-calendar": "~0.18.3",
+    "moment": "~2.10.0"
+  }
 }
