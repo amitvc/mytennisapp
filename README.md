@@ -1,6 +1,5 @@
-# Express JS + Angular js app 
-This project was put together as a demo application for Single page app using express and angular framework.
-The project tries to follow best practices for writing angular controllers, express routes, models and services.
+# Express JS + Angular js app
+Tennis club schedule management application built using angular js, express, node and several other libraries.
 
 ## Installation
 1. Download the repository
@@ -8,6 +7,3 @@ The project tries to follow best practices for writing angular controllers, expr
 3. Install bower dependencies `bower install`
 4. Start up the server: `node server.js` or 'npm start'
 5. View in browser at http://localhost:8080
-
-
-
